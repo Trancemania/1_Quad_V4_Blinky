@@ -29,6 +29,7 @@ quad_v4_blinky\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 quad_v4_blinky\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 quad_v4_blinky\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 quad_v4_blinky\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+quad_v4_blinky\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 quad_v4_blinky\main.o: ..\FreeRTOS\include\FreeRTOS.h
 quad_v4_blinky\main.o: D:\Program Files\Keil\ARM\ARMCC\Bin\..\include\stddef.h
 quad_v4_blinky\main.o: ../Inc/FreeRTOSConfig.h
