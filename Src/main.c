@@ -254,35 +254,6 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 }
 
-/* USER CODE BEGIN 4 */
-
-void vRED_LEDTask( void *pvParameters )
-{
-  for(;;)
-  {
-    vTaskDelay(pdMS_TO_TICKS(1000));
-		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
-  }
-}
-
-void vGRE_LEDTask( void *pvParameters )
-{
-  for(;;)
-  {
-    vTaskDelay(pdMS_TO_TICKS(2000));
-		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_12);
-  }
-}
-
-void vBLU_LEDTask( void *pvParameters )
-{
-  for(;;)
-  {
-    vTaskDelay(pdMS_TO_TICKS(4000));
-		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_13);
-  }
-}
-
 /**
   * @brief USART6 Initialization Function
   * @param None
@@ -333,6 +304,37 @@ static void MX_DMA_Init(void)
   HAL_NVIC_EnableIRQ(DMA2_Stream6_IRQn);
 
 }
+
+/* USER CODE BEGIN 4 */
+
+void vRED_LEDTask( void *pvParameters )
+{
+  for(;;)
+  {
+    vTaskDelay(pdMS_TO_TICKS(1000));
+		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
+  }
+}
+
+void vGRE_LEDTask( void *pvParameters )
+{
+  for(;;)
+  {
+    vTaskDelay(pdMS_TO_TICKS(2000));
+		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_12);
+  }
+}
+
+void vBLU_LEDTask( void *pvParameters )
+{
+  for(;;)
+  {
+    vTaskDelay(pdMS_TO_TICKS(4000));
+		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_13);
+  }
+}
+
+
 
 /* USER CODE END 4 */
 
