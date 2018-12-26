@@ -121,9 +121,9 @@ int main(void)
 
 	/* --- APPLICATION TASKS CAN BE CREATED HERE --- */
 	
-	xTaskCreate( vRED_LEDTask, "RED_LED", 128, NULL, 1, NULL );
-	xTaskCreate( vGRE_LEDTask, "GRE_LED", 128, NULL, 1, NULL );
-	xTaskCreate( vBLU_LEDTask, "BLU_LED", 128, NULL, 1, NULL );
+	xTaskCreate( vRED_LEDTask, "RED_LED", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
+	xTaskCreate( vGRE_LEDTask, "GRE_LED", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
+	xTaskCreate( vBLU_LEDTask, "BLU_LED", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
 
 	/* The suicide tasks must be created last as they need to know how many
 	tasks were running prior to their creation in order to ascertain whether
