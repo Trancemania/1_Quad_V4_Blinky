@@ -5,7 +5,7 @@ I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x5B92F2C8)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (../Inc/FreeRTOSConfig.h)(0x5C22ED92)
+I (../Inc/FreeRTOSConfig.h)(0x5C2426A3)
 I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
@@ -18,7 +18,7 @@ I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x5B92F2C8)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (../Inc/FreeRTOSConfig.h)(0x5C22ED92)
+I (../Inc/FreeRTOSConfig.h)(0x5C2426A3)
 I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
@@ -33,7 +33,7 @@ I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x5B92F2C8)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (../Inc/FreeRTOSConfig.h)(0x5C22ED92)
+I (../Inc/FreeRTOSConfig.h)(0x5C2426A3)
 I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
@@ -47,7 +47,7 @@ F (..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c)(0x5B92F2CA)(--c99 -c --cpu Cortex-
 I (..\FreeRTOS\include\FreeRTOS.h)(0x5B92F2C8)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (../Inc/FreeRTOSConfig.h)(0x5C22ED92)
+I (../Inc/FreeRTOSConfig.h)(0x5C2426A3)
 I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
@@ -60,7 +60,7 @@ I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x5B92F2C8)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (../Inc/FreeRTOSConfig.h)(0x5C22ED92)
+I (../Inc/FreeRTOSConfig.h)(0x5C2426A3)
 I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
@@ -68,7 +68,7 @@ I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x5B92F2C9)
 I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
 I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
-F (../Src/main.c)(0x5C232D7F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-I.\RTE\_Quad_V4_Blinky-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"D:\Program Files\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC-o quad_v4_blinky\main.o --omf_browse quad_v4_blinky\main.crf --depend quad_v4_blinky\main.d)
+F (../Src/main.c)(0x5C24262E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-I.\RTE\_Quad_V4_Blinky-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"D:\Program Files\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC-o quad_v4_blinky\main.o --omf_browse quad_v4_blinky\main.crf --depend quad_v4_blinky\main.d)
 I (../Inc/main.h)(0x5C202336)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5C1D893A)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5C232D7F)
@@ -101,7 +101,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5C1D893A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5C1D893A)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x5B92F2C8)
 I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
-I (../Inc/FreeRTOSConfig.h)(0x5C22ED92)
+I (../Inc/FreeRTOSConfig.h)(0x5C2426A3)
 I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
@@ -110,7 +110,7 @@ I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
 I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
 I (..\FreeRTOS\include\queue.h)(0x5B92F2C8)
-F (../Src/stm32f4xx_it.c)(0x5C232D7F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-I.\RTE\_Quad_V4_Blinky-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"D:\Program Files\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC-o quad_v4_blinky\stm32f4xx_it.o --omf_browse quad_v4_blinky\stm32f4xx_it.crf --depend quad_v4_blinky\stm32f4xx_it.d)
+F (../Src/stm32f4xx_it.c)(0x5C24262E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-I.\RTE\_Quad_V4_Blinky-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"D:\Program Files\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC-o quad_v4_blinky\stm32f4xx_it.o --omf_browse quad_v4_blinky\stm32f4xx_it.crf --depend quad_v4_blinky\stm32f4xx_it.d)
 I (../Inc/main.h)(0x5C202336)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5C1D893A)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5C232D7F)
@@ -141,8 +141,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5C1D893A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5C1D893A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5C1D893A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5C1D893A)
-I (../Inc/stm32f4xx_it.h)(0x5C232D7F)
-F (../Src/stm32f4xx_hal_msp.c)(0x5C232D7F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-I.\RTE\_Quad_V4_Blinky-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"D:\Program Files\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC-o quad_v4_blinky\stm32f4xx_hal_msp.o --omf_browse quad_v4_blinky\stm32f4xx_hal_msp.crf --depend quad_v4_blinky\stm32f4xx_hal_msp.d)
+I (../Inc/stm32f4xx_it.h)(0x5C24262E)
+F (../Src/stm32f4xx_hal_msp.c)(0x5C24262E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-I.\RTE\_Quad_V4_Blinky-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"D:\Program Files\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC-o quad_v4_blinky\stm32f4xx_hal_msp.o --omf_browse quad_v4_blinky\stm32f4xx_hal_msp.crf --depend quad_v4_blinky\stm32f4xx_hal_msp.d)
 I (../Inc/main.h)(0x5C202336)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5C1D893A)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5C232D7F)
