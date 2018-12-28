@@ -24,6 +24,8 @@ quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc
 quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
 quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
 quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
 quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 quad_v4_blinky\stm32f4xx_hal_timebase_tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
