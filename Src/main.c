@@ -168,8 +168,9 @@ PUTCHAR_PROTOTYPE
 {
   /* Place your implementation of fputc here */
   /* e.g. write a character to the EVAL_COM1 and Loop until the end of transmission */
-  HAL_UART_Transmit_DMA(&huart1, (uint8_t *)&ch, 1); 
-  HAL_UART_Transmit_DMA(&huart6, (uint8_t *)&ch, 1); 
+  HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1,0xFFFF); 
+  HAL_UART_Transmit(&huart6, (uint8_t *)&ch, 1,0xFFFF); 
+//  HAL_UART_Transmit_DMA(&huart6, (uint8_t *)&ch, 1); 
 
   return ch;
 }
@@ -379,11 +380,11 @@ void vRED_LEDTask( void *pvParameters )
   for(;;)
   {
     vTaskDelay(pdMS_TO_TICKS(1000));
-//		printf("\n\r System Ready! \n\r");
-		if(HAL_UART_Transmit_DMA(&huart1, (uint8_t*)aTxBuffer, TXBUFFERSIZE)!= HAL_OK)
-  {
-    Error_Handler();
-  }
+		printf("\n\r System Ready! \n\r");
+//		if(HAL_UART_Transmit(&huart1, (uint8_t*)aTxBuffer, TXBUFFERSIZE,0xFFFF)!= HAL_OK)
+//  {
+//    Error_Handler();
+//  }
 
 		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
   }
